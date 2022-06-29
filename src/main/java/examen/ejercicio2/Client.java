@@ -14,10 +14,10 @@ public class Client {
         cuadratrack3.llenarGasolina();
         cuadratracks4.llenarGasolina();
 
-        System.out.println(cuadratracks.estadoCombustible());
-        System.out.println(cuadratracks2.estadoCombustible());
-        System.out.println(cuadratrack3.estadoCombustible());
-        System.out.println(cuadratracks4.estadoCombustible());
+        System.out.println("Estado gasolina Nissan: " + cuadratracks.estadoCombustible());
+        System.out.println("Estado diesel Toyota: " + cuadratracks2.estadoCombustible());
+        System.out.println("Estado gasolina Suzuki: " + cuadratrack3.estadoCombustible());
+        System.out.println("Estado bateria Tesla: " +  cuadratracks4.estadoCombustible());
 
     }
 

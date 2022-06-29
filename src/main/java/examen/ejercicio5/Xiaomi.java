@@ -1,13 +1,13 @@
 package examen.ejercicio5;
 
-public class Apple implements ICelular {
+public class Xiaomi implements ICelular {
 
     private int ram;
     private int cpu;
     private int almacenamiento;
     private int precio;
 
-    public Apple(int ram, int cpu, int almacenamiento, int precio) {
+    public Xiaomi(int ram, int cpu, int almacenamiento, int precio) {
         this.ram = ram;
         this.cpu = cpu;
         this.almacenamiento = almacenamiento;
@@ -17,7 +17,7 @@ public class Apple implements ICelular {
     @Override
     public void decorarCelular() {
 
-        System.out.println("Empezando la decoracion del celular Apple!");
+        System.out.println("Empezando la decoracion del celular Xiaomi!");
         System.out.println("Caracteristicas actuales: ");
         System.out.println("RAM: " + ram + " GB");
         System.out.println("CPU: " + cpu + " GHZ");
