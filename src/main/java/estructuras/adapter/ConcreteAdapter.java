@@ -1,4 +1,4 @@
-package adapter.structure;
+package estructuras.adapter;
 
 public class ConcreteAdapter implements IAdapter{
 

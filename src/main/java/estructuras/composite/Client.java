@@ -1,6 +1,4 @@
-package composite.structure;
-
-import prototype.practicando.celulares.Celular;
+package estructuras.composite;
 
 public class Client {
 

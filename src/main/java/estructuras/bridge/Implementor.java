@@ -1,4 +1,4 @@
-package bridge.structure;
+package estructuras.bridge;
 
 public interface Implementor {
 

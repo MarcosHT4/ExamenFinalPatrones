@@ -1,4 +1,4 @@
-package visitor.structure;
+package estructuras.visitor;
 
 public class ConcreteVisitor implements IVisitor{
 

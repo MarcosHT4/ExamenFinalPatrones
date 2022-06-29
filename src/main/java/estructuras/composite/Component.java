@@ -1,4 +1,4 @@
-package composite.structure;
+package estructuras.composite;
 
 public abstract class Component {
 

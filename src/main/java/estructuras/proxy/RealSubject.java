@@ -1,4 +1,4 @@
-package proxy.structure;
+package estructuras.proxy;
 
 public class RealSubject implements ISubject {
 

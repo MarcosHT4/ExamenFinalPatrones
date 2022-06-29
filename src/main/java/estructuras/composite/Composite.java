@@ -1,4 +1,4 @@
-package composite.structure;
+package estructuras.composite;
 
 import java.util.ArrayList;
 import java.util.List;

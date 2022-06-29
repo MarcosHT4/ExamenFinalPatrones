@@ -1,4 +1,4 @@
-package visitor.structure;
+package estructuras.visitor;
 
 public class ConcreteElement2 implements IElement {
 
