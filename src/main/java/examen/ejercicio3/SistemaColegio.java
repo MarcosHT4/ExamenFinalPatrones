@@ -19,7 +19,7 @@ public class SistemaColegio implements ISistemaControl{
     @Override
     public void integrarRedSocial() {
 
-        System.out.println("Integrando el colegio: " + nombre + "con red social");
+        System.out.println("Integrando el colegio: " + nombre + " con red social");
         redSocial.integracionSistemaControl(this);
 
 
