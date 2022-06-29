@@ -10,9 +10,9 @@ public class Client {
         Usuario usuario2 = new Usuario(4,"Javi", "ehrgeuirherh");
         Usuario  usuario3 = new Usuario(7,"Shur","123");
 
-        servidorProxy.servirUsuario(usuario1);
-        servidorProxy.servirUsuario(usuario2);
-        servidorProxy.servirUsuario(usuario3);
+        servidorProxy.servirUsuario(usuario1, "wrghuihiuher");
+        servidorProxy.servirUsuario(usuario2, "ehrgeuirherh");
+        servidorProxy.servirUsuario(usuario3, "e5ger");
 
 
 

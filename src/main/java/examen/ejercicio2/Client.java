@@ -4,10 +4,10 @@ public class Client {
 
     public static void main(String[] args) {
 
-        ICuadratracks cuadratracks = new CuadratrackGasolina("Nissan", 0);
-        ICuadratracks cuadratracks2 = new CuadratrackDiesel("Toyota", 0);
-        ICuadratracks cuadratrack3 = new CuadratrackGasolina("Suzuki", 0);
-        ICuadratracks cuadratracks4 = new AdaptadorCuadratrackElectrico(new CuadratrackElectrico("Tesla", 0));
+        ICuadratracks cuadratracks = new CuadratrackGasolina("Nissan", 10);
+        ICuadratracks cuadratracks2 = new CuadratrackDiesel("Toyota", 10);
+        ICuadratracks cuadratrack3 = new CuadratrackGasolinaEspecial("Suzuki", 10);
+        ICuadratracks cuadratracks4 = new AdaptadorCuadratrackElectrico(new CuadratrackElectrico("Tesla", 10));
 
         cuadratracks.llenarGasolina();
         cuadratracks2.llenarGasolina();

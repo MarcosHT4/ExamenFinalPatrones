@@ -10,9 +10,9 @@ public class Client {
 
         Turista turista = new Turista("Dalas", "45645", 3000);
 
-        turista.visitarDepartamento(laPaz);
-        turista.visitarDepartamento(cochabamba);
-        turista.visitarDepartamento(santaCruz);
+        laPaz.visitadoPorTurista(turista);
+        cochabamba.visitadoPorTurista(turista);
+        santaCruz.visitadoPorTurista(turista);
 
     }
 

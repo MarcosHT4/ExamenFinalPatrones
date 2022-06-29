@@ -34,7 +34,7 @@ public class CuadratrackGasolinaEspecial implements ICuadratracks {
 
         System.out.println("Llenando gasolina especial en el cuadratrack: " + marca);
         int random = new Random().nextInt(51);
-        System.out.println("La gasolina especial se llenará con: " + random);
+        System.out.println("La gasolina especial se llenará con: " + random + " litros");
 
         if(gasolinaEspecial < 100) {
 
@@ -44,7 +44,7 @@ public class CuadratrackGasolinaEspecial implements ICuadratracks {
                 gasolinaEspecial = 100;
 
             }
-            System.out.println("Ahora se tiene: " + gasolinaEspecial);
+            System.out.println("Ahora se tiene: " + gasolinaEspecial + " litros de gasolina especial");
             System.out.println();
 
         } else {

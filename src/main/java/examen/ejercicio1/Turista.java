@@ -61,6 +61,8 @@ public class Turista implements ITurista {
 
         }
 
+        System.out.println();
+
     }
 
     @Override
@@ -85,6 +87,8 @@ public class Turista implements ITurista {
 
 
         }
+
+        System.out.println();
 
 
     }
@@ -111,6 +115,8 @@ public class Turista implements ITurista {
 
 
         }
+
+        System.out.println();
 
     }
 }

@@ -14,13 +14,13 @@ public class Client {
         Estudiante estudiante8 = new Estudiante("Lorena", "3543");
 
         SistemaEscuela sistemaEscuela = new SistemaEscuela("Montessori", 1000,
-                new Estudiante[]{estudiante1,estudiante2,estudiante3}, "Tener 60 de promedio");
+                new Estudiante[]{estudiante1,estudiante2,estudiante3}, "Tener 60 de promedio, tener minimo 13 años");
 
         SistemaColegio sistemaColegio = new SistemaColegio("La Salle", 3000,
-                new Estudiante[]{estudiante4,estudiante5,estudiante6}, "Tener 80 de promedio");
+                new Estudiante[]{estudiante4,estudiante5,estudiante6}, "Tener 80 de promedio, tener minimo 7 años");
 
         SistemaUniversidad sistemaUniversidad = new SistemaUniversidad("UPB", 600,
-                new Estudiante[]{estudiante7, estudiante8}, "Tener 70 de promedio");
+                new Estudiante[]{estudiante7, estudiante8}, "Tener 70 de promedio, tener minimo 18 años, tener titulo de bachiller");
 
 
         sistemaEscuela.setRedSocial(new Facebook());

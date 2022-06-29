@@ -10,7 +10,7 @@ public class Servidor1 implements IServidor {
     public Servidor1() {}
 
     @Override
-    public void servirUsuario(Usuario usuario) {
+    public void servirUsuario(Usuario usuario, String pwd) {
 
         System.out.println("Usuario: " + usuario.getNombre() + " añadido al servidor1");
         usuarios.add(usuario);

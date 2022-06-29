@@ -33,7 +33,7 @@ public class CuadratrackElectrico implements ICuadratracksElectrico{
 
         System.out.println("Cargando la bateria del cuadratrack: " + marca);
         int random = new Random().nextInt(21/2)*2;
-        System.out.println("La bateria se cargara con: " + random);
+        System.out.println("La bateria se cargara con: " + random + " Voltios");
         if(bateria < 100) {
 
             bateria+=random;
@@ -43,7 +43,7 @@ public class CuadratrackElectrico implements ICuadratracksElectrico{
 
             }
 
-            System.out.println("Ahora la gasolina esta al: " + bateria);
+            System.out.println("Ahora la bateria esta cargada al: " + bateria);
             System.out.println();
 
         } else {

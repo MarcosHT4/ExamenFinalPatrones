@@ -12,18 +12,18 @@ public class ServidorProxy implements IServidor {
 
 
     @Override
-    public void servirUsuario(Usuario usuario) {
+    public void servirUsuario(Usuario usuario, String pwd) {
 
         System.out.println("Intentando añadir al usuario " + usuario.getNombre() + " con id: " + usuario.getId());
-        if(usuario.getPwd().length() >= 8) {
+        if(pwd.equals(usuario.getPwd())) {
 
             if(isPrime(usuario.getId())) {
 
-                servidor1.servirUsuario(usuario);
+                servidor1.servirUsuario(usuario, pwd);
 
             } else {
 
-                servidor2.servirUsuario(usuario);
+                servidor2.servirUsuario(usuario, pwd);
 
             }
 
@@ -31,7 +31,7 @@ public class ServidorProxy implements IServidor {
 
         } else {
 
-            System.out.println("Error! La contraseña es muy corta!");
+            System.out.println("Error! La contraseña no coincide!!");
 
         }
 
